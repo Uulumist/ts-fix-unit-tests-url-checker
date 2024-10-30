@@ -25,4 +25,4 @@ jobs:
         run: npm install
 
       - name: Run url-checker.test.ts
-        run: npx jest
+        run: npx jest -i url-checker.test.ts
